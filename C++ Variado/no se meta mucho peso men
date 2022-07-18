@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float p, e, o=0; 
+	cout<<"ingrese cuanto peso quiere agregar en la barra: "<<endl;
+	cin>>p;	
+	for (int i=1; i==i ; i++){
+		cout<<"agregado: "<<endl;
+		cin>>e;
+		o+=e;
+		if (p<=o){
+		cout<<"ha llegado a su maximo bro"<<endl;
+		cout<<"cuida tus rodillas papi"<<endl;
+	   cout<<"con un total de: "<<o<<endl;
+		break;
+		}
+	cout<<"con un total de: "<<o<<endl;
+	}
+	system ("pause");
+	return 0;
+}

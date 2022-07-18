@@ -1,0 +1,19 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+int main()
+{
+	float t, p, s;
+		srand(time(NULL));
+	for (int i=0; i<=24; i++)
+		t=rand()%50;
+		
+		if  (t>16) && (t<45) {
+		
+			s+=t;
+		}
+		p= s/24;
+			cout<< "promedio de la temperatura es: "<<p<<endl;
+			system ("pause");
+		return 0; 
+}

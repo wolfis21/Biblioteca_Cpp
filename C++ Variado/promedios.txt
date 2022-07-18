@@ -1,0 +1,20 @@
+module1
+dim n1, n2, n3, prom as double; 
+sub main
+ console.write ("ingrese corte 1");
+ n1=console.read;
+ console.write ("ingrese corte 2");
+ n2=console.read;
+ console.write ("ingrese corte 3");
+ n3=console.read ;
+  prom=(n1+n2+n3)/3;
+
+    if (prom<10)then; 
+   console.write ("el alumno reprobo");
+   else
+   console.write ("el alumno aprobo");
+   end if
+ console.write ("su promedio es{0}", prom);
+ console.read();
+ end submain
+end module1
